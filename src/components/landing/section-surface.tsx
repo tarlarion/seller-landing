@@ -128,7 +128,7 @@ export function SectionSurface({
         <div
           ref={backgroundRef}
           aria-hidden
-          className="pointer-events-none absolute -inset-[18%] bg-no-repeat will-change-[filter,transform]"
+          className="pointer-events-none absolute -inset-[18%] bg-no-repeat opacity-[0.85] will-change-[filter,transform]"
           style={{
             backgroundImage: initialBackgroundUrl
               ? `url("${initialBackgroundUrl}")`
